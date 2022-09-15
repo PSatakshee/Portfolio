@@ -1,0 +1,36 @@
+.bg-black{
+    height: 35px;
+    padding: 5px;
+}
+.bg-black p{
+    background: -webkit-linear-gradient(270deg,
+  #ffd98e,
+  #fac252,
+  #fcbf45,
+  #ffaa01);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.bg-black a{
+    text-decoration: none;
+
+}
+#certificates{
+  background: linear-gradient(360deg,#a078ba, #8a4db2, #833ab4, #7815bb);
+    
+}
+#certificates img{
+    position: relative;
+    margin: 25px;
+    border-radius: 5px;
+    border: 10px solid white;
+  box-shadow: 0px 8px 15px rgba(252, 191, 69, 0.5);
+
+  }
+  #certificates{
+    text-align: center;
+  }
+  #certificates img:hover{
+    width: 500px;
+    height: 400px;
+  }

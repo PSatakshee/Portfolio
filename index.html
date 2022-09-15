@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BOOTSTRAP CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ---------FONTS----------- -->
+  <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+
+  <title>Portfolio • Home</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- -----------------------NAVBAR---------------------------- -->
+    <div class="fixed-top autohide mynavbar scrolled-up" id="navbar">
+      <nav class="glow-on-hover bg-white " id="nav-largescreen">
+        <ul class="nav justify-content-center">
+          <span class="navbar-text navbar-brand">
+            Portfolio
+          </span>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#go-to-home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#go-to-about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#go-to-project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#go-to-testimonial">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#go-to-contact"><button class="btn">Contact Me</button></a>
+          </li>
+        </ul>
+      </nav>
+  
+      <!-- NAVBAR for small screen -->
+      <nav class="navbar glow-on-hover bg-white" id="nav-smallscreen">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+  
+          <button class="toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <img src="/icon/burger menu.png" alt="" id="menu" class="burger-menu">
+          </button>
+  
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_me.html">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonial.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn ms-0 mt-5">Contact Me</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- -----------------------HOME---------------------------- -->
+    <div id="go-to-home">
+      <div class="container d-flex flex-row justify-content-evenly" id="content">
+        <!---------- LEFT PART OF CONTENT ---------->
+        <div class="container" id="left-part">
+          <h1 id="left-part-content">
+            Hi! I'm <span class="name">Pragya Satakshee</span>
+          </h1>
+          <p id="left-part-content">
+            I'm a developer with a creative mind and a Blockchain enthusiast having a great interest in solidity and web3.
+            Currently, I have been working as an intern in android development and web development at OriginCore Tech and
+            Business Web Solutions respectively. I aspire to grow professionally along with the organization’s growth.
+          </p>
+          <a class="btn btn-primary hire-me ms-0" href="mailto:sataksheep11@gmail.com"role="button">Hire Me</a>
+          <div id="left-part-content">
+            <div class="grid" id="media">
+              <a href="mailto:sataksheep11@gmail.com"><img src="icon/mail.png" alt="" width="25px" /></a>
+              <a href="https://www.linkedin.com/in/pragya-satakshee-268791209/" target="_blank"><img src="icon/linkedin.png" alt="" width="25px" /></a>
+              <a href="https://github.com/PSatakshee" target="_blank"><img src="icon/github.png" alt="" width="25px" /></a>
+              <a href="https://www.hackerrank.com/satakshee" target="_blank"><img src="icon/hackerrank.png" alt="" width="25px" /></a>
+            </div>
+          </div>
+        </div>
+        <!---------- RIGHT PART OF CONTENT ---------->
+        <div class="container" id="right-part">
+          <img id="me" src="img/me.png" alt="" />
+          <div id="circle-rotate">
+            <div class="rotate1 semi-circle1"></div>
+            <div class="rotate2 semi-circle2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------ABOUT ME---------------------------- -->
+    <div id="go-to-about">
+      <div class="d-flex flex-column align-items-justify mb-3 reveal" id="about-content">
+        <div class="bg-about">
+          <h2 style="text-align:left;">About Me...</h2>
+        </div>
+        <div class="about-para reveal">
+          <p>
+            Hi! My name is Pragya Satakshee. I am a BCA final year student at Guru Gobind Singh Indraprastha University,
+            Delhi. I really enjoy coding and want my career to be established in the same field.
+          </p>
+          <p>
+            I love exploring new technologies. Today, when the world is shifting from web2 to web3 technology, my interest
+            is also inclined towrads the ocean of blockchain. It's been more than a year, I'm enhancing my skills while
+            working with Ethereum and solidity.
+          </p>
+  
+          <p>
+            Recently, I also experienced the internship phase while making android app using Kotlin and creative websites
+            using the latest web development tools.
+          </p>
+          <p>
+            Here, are the languages and platforms, which I am proficient in are listed underneath .
+  
+          </p>
+        </div>
+        <div class="container p-5" id="icons">
+          <div class="d-flex flex-wrap">
+            <div class="icons col-2 ">
+                <img src="icon/kotlin.png" title="Kotlin">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/solidity.png" title="Solidity">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/ethereum.png" title="Ethereum">
+            </div>
+            <div class="icons col-2 ">
+              <img src="icon/hardhat.png" title="Hardhat">
+            </div>
+            <div class="icons col-2 ">
+              <img src="icon/ganache.png" title="Ganache">
+            </div>
+            <div class="icons col-2 ">
+              <img src="icon/truffle.png" title="Truffle">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/python.png" title="Python">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/java.png" title="JAVA">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/dsa.png" title="Data Structure Algorithm">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/cpp.png" title="C++ Programming Language">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/c.png" title="C Programming Language">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/react.png" title="React JS">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/node.png" title="Node JS">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/js.png" title="JavaScript">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/html.png" title="HTML">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/css.png" title="Cascading Style Sheet">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/bootstarp.png" title="Bootstrap">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/sql.png" title="My SQL">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/vb.png" title="Visual Basic .NET">
+            </div>
+            <div class="icons col-2 ">
+                <img src="icon/vs code.png" title="Visual Studio Code ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/visual studio.png" title="Visual Studio ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/android studio.png" title="Andriod Studio ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/intelij.png" title="IntelliJ IDEA ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/atom.png" title="Atom ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/figma.png" title="Figma ">
+            </div>
+            <div class="icons  col-2 ">
+                <img src="icon/canva.png" title="Canva ">
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------PROJECTS---------------------------- -->
+    <div id="go-to-project">
+      <div class="reveal" id="project">
+        <h2>Things I've build...</h2>
+        <div class="d-flex flex-column mb-3">
+          <div class="card mt-5 mb-3 reveal">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="bordered-img-left">
+                  <img src="img/androidapp.jpg" class="img-fluid" alt="...">
+                  <span class="yellow-box"></span>
+                  <span class="purple-box"></span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Android App</h5>
+                  <p class="card-text">This app is a food ordering app where user can choose from a variety of handpicked resturants and order their favourite food items. The work on this project is in progress.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mb-3 reveal">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title r">Wallets</h5>
+                  <p class="card-text">
+                    In this project I've created two wallets: 1- metamask and 2- walletconnect. As metamask is used as an extention, wallectconnect provides a wider range of facilities to user by allowing them to use wallets on any device just by scanning the QR code. This project is written in react and the library used is Web3.js.
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bordered-img-right">
+                  <img src="img/wallets.png" class="img-fluid" alt="...">
+                  <span class="yellow-box-r"></span>
+                  <span class="purple-box-r"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mb-3 reveal">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="bordered-img-left">
+                  <img src="img/robo.png" class="img-fluid" alt="...">
+                  <span class="yellow-box"></span>
+                  <span class="purple-box"></span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">My Robo</h5>
+                  <p class="card-text">When I first started learning Kotlin, this was the project I initially made. In this project a personal robot like alexa has been created which performs various tasks for its user viz. setting the alarm, warming water to bath etc.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mb-3 reveal">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title r">Fun with Python</h5>
+                  <p class="card-text">This project was just made for fun via learning python while my internship. It is basically a game which we all have played in our childhood- Rock, paper, scissor. This game can be played among computer and a user. </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bordered-img-right">
+                  <img src="img/funwithpython.png" class="img-fluid" alt="...">
+                  <span class="yellow-box-r"></span>
+                  <span class="purple-box-r"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mb-3 reveal">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="bordered-img-left">
+                  <img src="img/memecoin.png" class="img-fluid" alt="...">
+                  <span class="yellow-box"></span>
+                  <span class="purple-box"></span>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Meme Coin</h5>
+                  <p class="card-text">It is smart contract based project which allows user to generate, burn and transfer meme coins to some other address(user). This project is made using test network- rinkeby and involves uasge of gas as well.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------TESTIMONIAL---------------------------- -->
+    <div id="go-to-testimonial">
+      <div class="reveal" id="testimonial">
+        <div class="bg-test">
+          <h2>Testimonials</h2>
+          <p style="text-align: center;">Here comes some of my certificates and accolades won by me.</p>
+        </div>
+        <div class="imgs">
+          <div class="grid align-items-center" id="certificates">
+            <img src="img/blockchain.png" alt="" width="250px" height="200px" />
+            <img src="img/certificate-learn-figma-user-interface-design-essentials-ui-ux-design.jfif" alt="" width="250px" height="200px"/>
+            <img src="img/Java Basic- Hacker Rank.png" alt="" width="250px" height="200px"/>
+            <img src="img/Pragya Satakshee.png" alt="" width="250px" height="200px"/>
+          </div>
+        </div>
+        <div style="text-align:center;">
+          <a href="testimonial.html"><button class="btn">More</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------CONTACT---------------------------- -->
+    <div id="go-to-contact">
+      <div class="reveal" id="contact">
+        <div class="bg-black">
+          <h3>I am open to work.</h3>
+          <h2>Get In Touch</h2>
+          <p>Feel free to reach me via mail or social media.</p>
+          <a href="mailto:sataksheep11@gmail.com"><button class="btn">Hire</button></a>
+        </div>
+        <div class="footer">
+          <div class="grid" id="media-footer">
+            <a href="mailto:sataksheep11@gmail.com"><img src="icon/mail.png" alt="" width="25px" /></a>
+              <a href="https://www.linkedin.com/in/pragya-satakshee-268791209/" target="_blank"><img src="icon/linkedin.png" alt="" width="25px" /></a>
+              <a href="https://github.com/PSatakshee" target="_blank"><img src="icon/github.png" alt="" width="25px" /></a>
+              <a href="https://www.hackerrank.com/satakshee" target="_blank"><img src="icon/hackerrank.png" alt="" width="25px" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gold">
+      <p>Design & Developed by Pragya Satakshee</p>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
